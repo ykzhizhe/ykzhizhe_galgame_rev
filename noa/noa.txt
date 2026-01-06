@@ -1,0 +1,25 @@
+0x34 magicnum :   456E7469731A0000000400020000000045524953412D417263686976652066696C65
+(Entis ERISA-Archive file)
+0x16 fillwith"0"
+0x8 magicnum : DirEntry
+0x4 filedatastartoffsetfromNoaFileHeaderEnd
+0x4 00000000
+0x4 filenum
+0x4 00000000
+0x8 0100000000000000
+
+(Noa_File_Header_End)
+sturct_for_noafile
+{
+	0x4 packedfilesize
+	0x4 00000000
+	0x4 01000000
+	0x4 00000000/80000010 （压缩标志（+编译标志）（疑似？））
+	0x4 filedataoffsetfromNoaFileHeaderEnd
+	0x4 00000000
+	0x8 会移动的未知数，不影响读取
+	0x4 00000000 
+	0x4 filenamesize+1
+	0xn filename
+	0x1 00
+}
