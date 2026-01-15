@@ -1,13 +1,14 @@
 0x34 magicnum :   456E7469731A0000000400020000000045524953412D417263686976652066696C65
 (Entis ERISA-Archive file)
-0x16 fillwith"0"
+0x22 fillwith"0"
+0x8 size-64
 0x8 magicnum : DirEntry
 0x4 filedatastartoffsetfromNoaFileHeaderEnd
 0x4 00000000
 0x4 filenum
 0x4 00000000
 0x8 0100000000000000
-
+0x4 00000000
 (Noa_File_Header_End)
 sturct_for_noafile
 {
